@@ -299,10 +299,10 @@ platform as set during compile time of Node.js. Some of the possible values are
  Its value is based on [`OS` constant of `gyp`](https://chromium.googlesource.com/external/gyp/+/md-pages/docs/InputFormatReference.md#Predefined-Variables)
  , but with exceptions in case of Mac OS X, Windows and Solaris.
  
- On Windows its value is always `"win32"`, on Mac OS X its `"darwin"` and on
- Solaris its `"sunos"`.
+ On Windows it's value is always `"win32"`, on Mac OS X it's `"darwin"` and on
+ Solaris it is `"sunos"`.
  
- Heres a list of possible values for some platforms:
+ Here is a list of possible values for some platforms:
  
  * Android: `"android"`
  * Windows/Cygwin: `"win32"`
